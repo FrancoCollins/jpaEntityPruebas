@@ -18,7 +18,6 @@ public class JpaEntityApplication {
 
     public static void main(String[] args) {
         ApplicationContext c = SpringApplication.run(JpaEntityApplication.class, args);
-        accAutor d = (accAutor) c.getBean("accAutor");
 
         Calendar cal = Calendar.getInstance();
         cal.set(Calendar.YEAR, 1995);
